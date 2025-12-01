@@ -16,3 +16,7 @@ def display_results(name="Guest"):
         print("Welcome, ", name)
 display_results("Pranali")
 
+#Lambda functions
+square = lambda x: x * x
+print(square(5))
+
